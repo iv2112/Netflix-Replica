@@ -73,3 +73,33 @@ img {
   height: 100px;
   border-radius: 13px;
 }
+
+.manage {
+  cursor: pointer;
+  width: 176.45px;
+  height: 40px;
+  border-radius: 9998px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.7);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: "Netflix Sans Variable", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  position: absolute;
+  line-height: 16px;
+  font-weight: 500;
+  margin: 50px 0px 0px;
+  background-color: rgb(9, 9, 9);
+  transition-delay: 0s;
+  transition-duration: 0.25s;
+  transition-property: background-color, border-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+  transition-behavior: normal;
+  left: 44%;
+}
+
+.manage:hover {
+  background-color: rgb(8, 8, 8);
+  border-color: rgb(255, 255, 255);
+  transition-timing-function: cubic-bezier(0.32, 0.94, 0.6, 1);
+}
