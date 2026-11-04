@@ -29,7 +29,7 @@ body {
 
 .profiles {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   justify-content: center;
   align-items: center;
 }
@@ -43,8 +43,8 @@ body {
   color: rgb(255, 255, 255);
   border-radius: 13px;
   text-align: center;
-  height: 160px;
-  width: 120px;
+  height: 177px;
+  width: 130px;
   transition-delay: 0s;
   transition-duration: 0.15s;
   transition-property: background-color;
@@ -69,9 +69,10 @@ h4 {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   border-radius: 13px;
+  margin-bottom: 25px;
 }
 
 .manage {
