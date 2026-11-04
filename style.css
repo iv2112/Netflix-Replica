@@ -15,6 +15,13 @@ body {
   background-size: 100% 100%;
 }
 
+.logo {
+  height: 20px;
+  width: 87px;
+  margin-left: 34.5px;
+  margin-top: 22px;
+}
+
 .ques {
   color: rgb(255, 255, 255);
   font-family: "Netflix Sans Variable", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
