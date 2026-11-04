@@ -1,0 +1,1 @@
+Netflix, a video-streaming platform, has an amazing application. Thus, I have tried to recreate it as accurately as I can so that I could learn more about designing and animation. I do not intend to use this website against anyone and do not wish to mislead anyone with this.
