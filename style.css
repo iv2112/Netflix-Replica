@@ -28,3 +28,33 @@ body {
   user-select: none;
   margin-bottom: 15px;
 }
+
+.profiles {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-1,
+.profile-2,
+.profile-3 {
+  cursor: pointer;
+  padding: 16px;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 13px;
+  text-align: center;
+  height: 160px;
+  width: 120px;
+  transition-delay: 0s;
+  transition-duration: 0.15s;
+  transition-property: background-color;
+  transition-timing-function: ease-in-out;
+}
+
+.profile-1:hover,
+.profile-2:hover,
+.profile-3:hover {
+  background: rgba(255, 255, 255, 0.09);
+}
