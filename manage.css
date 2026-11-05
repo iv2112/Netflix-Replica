@@ -10,6 +10,9 @@ body {
 
 .logo-container {
   background-color: #ffffff;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 170.5px;
 }
 
 .logo {
