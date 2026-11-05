@@ -52,3 +52,24 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
+.pr,
+.pl {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  cursor: default;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  position: relative;
+  width: 680px;
+  height: 100px;
+  text-align: left;
+}
