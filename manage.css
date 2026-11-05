@@ -33,7 +33,8 @@ body {
   margin-top: 15px;
 }
 
-.profile-info {
+.pr,
+.pl {
   box-sizing: border-box;
   background-color: #ffffff;
   color: rgb(51, 51, 51);
@@ -51,4 +52,5 @@ body {
   border-radius: 8px;
   overflow-x: hidden;
   overflow-y: hidden;
+  margin-bottom: 30px;
 }
