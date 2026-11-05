@@ -38,7 +38,14 @@ body {
 }
 
 .pr,
-.pl {
+.pl,
+.language,
+.parental-controls,
+.subtitle,
+.playback,
+.notification,
+.viewing,
+.privacy {
   box-sizing: border-box;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
