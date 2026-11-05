@@ -33,6 +33,10 @@ body {
   margin-top: 15px;
 }
 
+.pr {
+  margin-top: 35px;
+}
+
 .pr,
 .pl {
   box-sizing: border-box;
@@ -53,4 +57,8 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   margin-bottom: 30px;
+}
+
+.pl {
+  margin-bottom: 45px;
 }
