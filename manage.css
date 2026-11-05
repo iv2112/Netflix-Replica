@@ -57,13 +57,13 @@ body {
   border-radius: 8px;
   overflow-x: hidden;
   overflow-y: hidden;
-  margin-bottom: 30px;
-  font-weight: 590;
+  margin-bottom: 5px;
+  font-weight: 550;
   letter-spacing: 0.1px;
 }
 
 .pl {
-  margin-bottom: 45px;
+  margin-bottom: 30.9px;
 }
 
 .main {
@@ -78,6 +78,7 @@ body {
   font-size: 18px;
   margin-left: 20px;
   margin-top: 36.4px;
+  font-weight: 550;
 }
 
 .profile-lock-icon svg {
@@ -97,4 +98,16 @@ body {
   font-size: 18px;
   margin-left: 20px;
   margin-top: 36.4px;
+}
+
+.preference-txt {
+  color: rgb(51, 51, 51);
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  cursor: default;
+  display: block;
+  box-sizing: border-box;
+  margin-left: 390px;
 }
