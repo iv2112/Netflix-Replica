@@ -1,3 +1,8 @@
 @view-transition {
   navigation: auto;
 }
+
+.logo {
+  height: 28px;
+  width: 103.594px;
+}
