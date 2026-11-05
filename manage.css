@@ -67,7 +67,9 @@ body {
 }
 
 .main {
-  height: 31px;
-  width: 31px;
+  height: 31.5px;
+  width: 31.5px;
   border-radius: 4px;
+  margin-left: 17px;
+  margin-top: 31.5px;
 }
