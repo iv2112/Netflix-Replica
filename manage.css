@@ -6,3 +6,11 @@
   height: 28px;
   width: 103.594px;
 }
+
+.title {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
