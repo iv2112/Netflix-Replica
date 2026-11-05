@@ -21,11 +21,14 @@ body {
 }
 
 .title {
-  color: rgb(51, 51, 51);
+  color: #333333;
+  line-height: 40px;
   display: block;
   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
   font-size: 32px;
   font-weight: 700;
   text-align: left;
   cursor: default;
+  margin-left: 390px;
+  margin-top: 15px;
 }
