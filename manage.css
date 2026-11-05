@@ -73,3 +73,10 @@ body {
   height: 100px;
   text-align: left;
 }
+
+.pr-div,
+.pl-div {
+  width: 656px;
+  height: 76px;
+  align-items: center;
+}
