@@ -62,3 +62,9 @@ body {
 .pl {
   margin-bottom: 45px;
 }
+
+.main {
+  height: 31px;
+  width: 31px;
+  border-radius: 4px;
+}
