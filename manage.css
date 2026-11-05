@@ -118,3 +118,21 @@ body {
   box-sizing: border-box;
   margin-left: 390px;
 }
+
+.language-icon svg {
+  fill: currentColor;
+  stroke: none;
+}
+
+.language-icon text {
+  font-family: "Netflix Sans", "Helvetica Neue", "segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.language-icon .lang-zh {
+  font-size: 13px;
+}
+
+.language-icon .lang-a {
+  font-size: 14px;
+  font-weight: 700;
+}
