@@ -41,6 +41,12 @@ body {
   align-items: center;
 }
 
+.profile-page {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .profile-1,
 .profile-2,
 .profile-3 {
