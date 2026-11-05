@@ -2,6 +2,16 @@
   navigation: auto;
 }
 
+body {
+  background-color: #FAFAFA;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-container {
+  background-color: #ffffff;
+}
+
 .logo {
   height: 28px;
   width: 103.594px;
