@@ -86,9 +86,11 @@ body {
   stroke-linecap: round;
   stroke-linejoin: round;
   display: block;
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   stroke-width: 1.6;
+  margin-left: 18px;
+  margin-top: 32px;
 }
 
 .pl-head {
