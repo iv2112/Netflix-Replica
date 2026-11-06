@@ -50,14 +50,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5.5px;
+  gap: 7.5px;
   padding-left: 6.5px;
   padding-top: 1px;
 }
 
 .nav-txt {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 15.5px;
   padding-left: 15.5px;
   padding-right: 15px;
   padding-top: 11.5px;
