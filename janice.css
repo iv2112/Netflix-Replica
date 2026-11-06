@@ -106,3 +106,20 @@ body {
 .bell {
   position: relative;
 }
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.picture {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+}
+
+.profile-name {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+}
