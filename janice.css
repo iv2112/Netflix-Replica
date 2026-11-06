@@ -333,3 +333,7 @@ body {
 .sl-img.first {
   margin-left: 48px;
 }
+
+.sl-img.last {
+  margin-bottom: 30px;
+}
