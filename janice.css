@@ -282,7 +282,7 @@ body {
 }
 
 .opt.more-info {
-  background-color: rgba(109, 109, 110, 0.7);
+  background-color: rgba(109, 109, 110, 0.4);
   color: rgb(255, 255, 255);
   transition-delay: 0s;
   transition-duration: 0.2s;
@@ -291,6 +291,6 @@ body {
   cursor: pointer;
 }
 
-.opt.more-info {
-  background-color: rgba(109, 109, 110, 0.5);
+.opt.more-info:hover {
+  background-color: rgba(109, 109, 110, 0.3);
 }
