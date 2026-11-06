@@ -362,6 +362,19 @@ body {
   background-color: rgba(20, 20, 20, 0.95);
 }
 
+.slider-btn svg {
+  width: 26px;
+  height: 26px;
+}
+
+.slider-btn path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .sl-img {
   width: 280.75px;
   height: 158.07px;
