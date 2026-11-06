@@ -171,3 +171,9 @@ body {
   object-fit: cover;
   object-position: center;
 }
+
+.netflix-s-logo,
+.w-movie-extra {
+  position: absolute;
+  z-index: 2;
+}
