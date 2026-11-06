@@ -85,7 +85,7 @@ body {
 }
 
 .nav-right {
-  gap: 24px;
+  gap: 27px;
 }
 
 .icon {
@@ -116,7 +116,7 @@ body {
   width: 30.5px;
   height: 30.5px;
   border-radius: 4px;
-  margin-right: 29.5px;
+  margin-right: 42px;
 }
 
 .profile-name {
