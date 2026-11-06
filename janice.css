@@ -183,3 +183,16 @@ body {
   top: 28px;
   left: 28px;
 }
+
+.w-movie-extra {
+  left: 58px;
+  bottom: 60px;
+  max-width: 600px;
+}
+
+.w-movie-title {
+  display: block;
+  width: 420px;
+  max-width: 100%;
+  margin-bottom: 40px
+}
