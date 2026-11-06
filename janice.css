@@ -151,3 +151,14 @@ body {
 .children .picture {
   margin-right: 12px;
 }
+
+.w-movie-container {
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-left: 48px;
+  margin-right: 48px;
+  height: 650px;
+  border-radius: 28px;
+  overflow: hidden;
+}
