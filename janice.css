@@ -123,10 +123,20 @@ body {
   text-decoration: none;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.85);
+  margin: 0;
 }
 
 .children {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.children-container {
+  text-decoration: none;
+  color: inherit;
+}
+
+.children .picture {
+  margin-right: 8px;
 }
