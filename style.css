@@ -114,10 +114,30 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
   transition-behavior: normal;
   left: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .manage:hover {
   background-color: rgb(8, 8, 8);
   border-color: rgb(255, 255, 255);
   transition-timing-function: cubic-bezier(0.32, 0.94, 0.6, 1);
+}
+
+.manage-icon {
+  display: flex;
+  align-items: center;
+}
+
+.manage-icon svg {
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  width: 22px;
+  height: 22px;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
