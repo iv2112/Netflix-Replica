@@ -107,7 +107,7 @@ body {
   position: relative;
 }
 
-.profile {
+.profiles {
   display: flex;
   align-items: center;
   gap: 8px;
