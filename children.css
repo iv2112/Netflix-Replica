@@ -1,3 +1,406 @@
 @view-transition {
   navigation: auto;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  background-color: #141414;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+  display: flex;
+  padding-top: 6px;
+  padding-bottom: 0;
+  padding-left: 48px;
+  padding-right: 39px;
+  height: 68px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 20px;
+  width: 76px;
+  margin: 0;
+}
+
+.other-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7.5px;
+  padding-left: 6.5px;
+  padding-top: 1px;
+}
+
+.nav-txt {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15.5px;
+  padding-left: 15.5px;
+  padding-right: 15px;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+  border-radius: 999px;
+  white-space: nowrap;
+  text-decoration: none;
+  background: transparent;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  font-weight: 301;
+  letter-spacing: 0.5px;
+  user-select: none;
+}
+
+.nav-txt.home {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.nav-txt:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-txt:active {
+  color: #ffffff;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.nav-right {
+  gap: 24px;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.icon path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bell {
+  position: relative;
+}
+
+.profiles {
+  display: flex;
+  align-items: center;
+}
+
+.picture {
+  width: 30.5px;
+  height: 30.5px;
+  border-radius: 4px;
+  margin-right: 34px;
+}
+
+.profile-name {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+}
+
+.children {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.children-container {
+  padding: 2px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 4px;
+  width: 99.9922px;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+}
+
+.children-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.children .picture {
+  margin-right: 12px;
+}
+
+.w-movie-container {
+  position: relative;
+  margin-top: 14.5px;
+  margin-bottom: 40px;
+  margin-left: 48px;
+  margin-right: 48px;
+  height: 650px;
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.w-movie {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.netflix-s-logo,
+.w-movie-extra {
+  position: absolute;
+  z-index: 2;
+}
+
+.netflix-s-logo {
+  height: 30px;
+  top: 36.5px;
+  left: 36px;
+}
+
+.w-movie-extra {
+  left: 58px;
+  bottom: 60px;
+  max-width: 600px;
+}
+
+.w-movie-title {
+  display: block;
+  width: 420px;
+  max-width: 100%;
+  margin-bottom: 40px
+}
+
+.w-movie-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0;
+  margin-bottom: 9.5px;
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  user-select: none;
+}
+
+.w-movie-info .dot {
+  font-size: 20px;
+  opacity: 0.6;
+  user-select: none;
+}
+
+.w-movie-info .age-req {
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+.w-movie-description {
+  font-size: 19.5px;
+  line-height: 1.45;
+  font-weight: 400;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+  user-select: none;
+}
+
+.w-movie-options {
+  display: flex;
+  gap: 12px;
+}
+
+.opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+  font-size: 17.5px;
+  font-weight: 500;
+  border-radius: 999px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 22px;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  user-select: none;
+}
+
+.opt.play {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+
+.opt.play:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.opt.play svg {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+}
+
+.opt.play path {
+  fill: currentColor;
+}
+
+.opt.more-info {
+  background-color: rgba(109, 109, 110, 0.4);
+  color: rgb(255, 255, 255);
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+
+.opt.more-info:hover {
+  background-color: rgba(109, 109, 110, 0.3);
+}
+
+.slider-head {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 22.5px;
+  user-select: none;
+  margin-left: 50px;
+}
+
+.slider-container {
+  position: relative;
+  margin-bottom: 37px;
+}
+
+.slider-a,
+.slider-b,
+.slider-c,
+.slider-d,
+.slider-e {
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.slider-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 33px;
+  height: 60px;
+  border: none;
+  border-radius: 102px;
+  background-color: rgba(20, 20, 20, 0.7);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: opacity, visibility, background-color;
+  transition-timing-function: ease;
+}
+
+.slider-container:hover .slider-btn {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.slider-btn:hover {
+  background-color: rgba(20, 20, 20, 0.95);
+}
+
+.slider-btn svg {
+  width: 26px;
+  height: 26px;
+}
+
+.slider-btn path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.slider-btn.btn-prev {
+  left: 30px;
+}
+
+.slider-btn.btn-next {
+  right: 30px;
+}
+
+.slider-btn.hidden,
+.slider-container:hover .slider-btn.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.sl-img {
+  width: 280.75px;
+  height: 158.07px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sl-img.first {
+  margin-left: 48px;
+}
+
+.sl-img.last {
+  margin-bottom: 25px;
+}
