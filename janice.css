@@ -29,7 +29,8 @@ body {
   width: 100%;
 }
 
-.nav-left {
+.nav-left,
+.nav-right {
   display: flex;
   align-items: center;
 }
