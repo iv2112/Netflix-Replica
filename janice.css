@@ -311,3 +311,9 @@ body {
   user-select: none;
   margin-left: 50px;
 }
+
+.sl-img {
+  width: 280.75px;
+  height: 158.07px;
+  border-radius: 8px;
+}
