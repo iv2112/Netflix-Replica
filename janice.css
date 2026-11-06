@@ -295,3 +295,11 @@ body {
 .opt.more-info:hover {
   background-color: rgba(109, 109, 110, 0.3);
 }
+
+.slider-head {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 22.5px;
+  user-select: none;
+}
