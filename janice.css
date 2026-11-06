@@ -49,7 +49,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8.5px;
+  gap: 5.5px;
   padding-left: 6.5px;
   padding-top: 1px;
 }
@@ -57,17 +57,17 @@ body {
 .nav-txt {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-left: 15.5px;
+  padding-right: 15px;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
   border-radius: 999px;
   white-space: nowrap;
   text-decoration: none;
   background: transparent;
   transition-delay: 0s;
   transition-duration: 0.2s;
-  transition-property: color, background-color;
+  transition-property: background-color;
   transition-timing-function: ease;
   font-weight: 301;
   letter-spacing: 0.5px;
@@ -75,7 +75,6 @@ body {
 
 .nav-txt:hover {
   background-color: rgba(255, 255, 255, 0.08);
-  color: #ffffff;
 }
 
 .nav-txt:active {
