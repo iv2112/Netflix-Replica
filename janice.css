@@ -162,7 +162,7 @@ body {
 .w-movie-container {
   position: relative;
   margin-top: 14.5px;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
   margin-left: 48px;
   margin-right: 48px;
   height: 650px;
@@ -309,4 +309,5 @@ body {
   font-weight: 500;
   font-size: 22.5px;
   user-select: none;
+  margin-left: 50px;
 }
