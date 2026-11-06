@@ -88,7 +88,7 @@ body {
   font-weight: 550;
 }
 
-.profile-lock-icon svg {
+.icons svg {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -125,7 +125,7 @@ body {
 }
 
 .language-icon text {
-  font-family: "Netflix Sans", "Helvetica Neue", "segoe UI", Roboto, Ubuntu, sans-serif;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
 
 .language-icon .lang-zh {
