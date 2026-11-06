@@ -196,3 +196,25 @@ body {
   max-width: 100%;
   margin-bottom: 40px
 }
+
+.w-movie-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0;
+  margin-bottom: 14px;
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.w-movie-info .dot {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.w-movie-info .age-req {
+  font-weight: 400;
+  opacity: 0.85;
+}
