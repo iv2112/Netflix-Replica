@@ -228,3 +228,8 @@ body {
   margin-right: 0;
   margin-bottom: 24px;
 }
+
+.w-movie-options {
+  display: flex;
+  gap: 12px;
+}
