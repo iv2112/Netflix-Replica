@@ -125,3 +125,10 @@ body {
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
 }
+
+.children {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
