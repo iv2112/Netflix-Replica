@@ -233,3 +233,50 @@ body {
   display: flex;
   gap: 12px;
 }
+
+.opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 56px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 999px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 34px;
+  padding-right: 34px;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+}
+
+.opt.play {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-left: 24px;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+
+.opt.play:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.opt.more-info {
+  background-color: rgba(109, 109, 110, 0.7);
+  color: rgb(255, 255, 255);
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+
+.opt.more-info {
+  background-color: rgba(109, 109, 110, 0.5);
+}
