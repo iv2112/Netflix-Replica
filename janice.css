@@ -83,3 +83,22 @@ body {
   font-weight: 500;
   background: rgba(255, 255, 255, 0.15);
 }
+
+.nav-right {
+  gap: 24px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.icon path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
