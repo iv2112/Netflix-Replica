@@ -202,16 +202,17 @@ body {
   align-items: center;
   gap: 10px;
   margin-top: 0;
-  margin-bottom: 14px;
+  margin-bottom: 9.5px;
   margin-right: 0;
   margin-left: 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 0.5px;
   user-select: none;
 }
 
 .w-movie-info .dot {
-  font-size: 10px;
+  font-size: 20px;
   opacity: 0.6;
   user-select: none;
 }
