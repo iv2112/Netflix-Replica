@@ -244,8 +244,8 @@ body {
   border-radius: 999px;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 34px;
-  padding-right: 34px;
+  padding-left: 20px;
+  padding-right: 22px;
   transition-delay: 0s;
   transition-duration: 0.2s;
   transition-property: background-color;
@@ -255,7 +255,6 @@ body {
 .opt.play {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  padding-left: 24px;
   transition-delay: 0s;
   transition-duration: 0.2s;
   transition-property: background-color;
@@ -270,6 +269,7 @@ body {
 .opt.play svg {
   width: 32px;
   height: 32px;
+  margin: 0;
 }
 
 .opt.play path {
