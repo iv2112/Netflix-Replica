@@ -376,11 +376,11 @@ body {
 }
 
 .slider-btn.btn-prev {
-  left: 6px;
+  left: 25px;
 }
 
 .slider-btn.btn-next {
-  right: 6px;
+  right: 25px;
 }
 
 .slider-btn.hidden,
