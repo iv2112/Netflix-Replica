@@ -89,8 +89,8 @@ body {
 }
 
 .icon {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   display: block;
   color: rgb(255, 255, 255);
 }
@@ -114,10 +114,10 @@ body {
 }
 
 .picture {
-  width: 26px;
-  height: 26px;
+  width: 30.5px;
+  height: 30.5px;
   border-radius: 4px;
-  margin-right: 28px;
+  margin-right: 25.5px;
 }
 
 .profile-name {
