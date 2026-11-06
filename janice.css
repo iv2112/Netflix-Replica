@@ -49,7 +49,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 4px;
+  gap: 8.5px;
+  padding-left: 6.5px;
+  padding-top: 1px;
 }
 
 .nav-txt {
@@ -67,6 +69,8 @@ body {
   transition-duration: 0.2s;
   transition-property: color, background-color;
   transition-timing-function: ease;
+  font-weight: 301;
+  letter-spacing: 0.5px;
 }
 
 .nav-txt:hover {
