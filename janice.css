@@ -328,3 +328,7 @@ body {
   height: 158.07px;
   border-radius: 8px;
 }
+
+.sl-img.first {
+  margin-left: 48px;
+}
