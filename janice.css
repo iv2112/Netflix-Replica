@@ -317,7 +317,7 @@ body {
 .slider-c,
 .slider-d,
 .slider-e {
-  margin-bottom: 37px;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: row;
   gap: 8px;
