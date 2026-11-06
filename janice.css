@@ -317,3 +317,11 @@ body {
   height: 158.07px;
   border-radius: 8px;
 }
+
+.slider-a,
+.slider-b,
+.slider-c,
+.slider-d,
+.slider-e {
+  margin-bottom: 37px;
+}
