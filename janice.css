@@ -207,11 +207,13 @@ body {
   margin-left: 0;
   font-size: 16px;
   font-weight: 600;
+  user-select: none;
 }
 
 .w-movie-info .dot {
   font-size: 10px;
   opacity: 0.6;
+  user-select: none;
 }
 
 .w-movie-info .age-req {
@@ -228,6 +230,7 @@ body {
   margin-right: 0;
   margin-bottom: 24px;
   letter-spacing: 0.5px;
+  user-select: none;
 }
 
 .w-movie-options {
@@ -251,6 +254,7 @@ body {
   transition-duration: 0.2s;
   transition-property: background-color;
   transition-timing-function: ease;
+  user-select: none;
 }
 
 .opt.play {
