@@ -375,6 +375,21 @@ body {
   stroke-linejoin: round;
 }
 
+.slider-btn.btn-prev {
+  left: 6px;
+}
+
+.slider-btn.btn-next {
+  right: 6px;
+}
+
+.slider-btn.hidden,
+.slider-container:hover .slider-btn.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .sl-img {
   width: 280.75px;
   height: 158.07px;
