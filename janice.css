@@ -312,6 +312,11 @@ body {
   margin-left: 50px;
 }
 
+.slider-container {
+  position: relative;
+  margin-bottom: 37px;
+}
+
 .slider-a,
 .slider-b,
 .slider-c,
