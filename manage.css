@@ -141,3 +141,8 @@ body {
   width: 35px;
   height: 35px;
 }
+
+.playback-icon svg {
+  width: 33px;
+  height: 33px;
+}
