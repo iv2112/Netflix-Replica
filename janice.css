@@ -352,6 +352,16 @@ body {
   transition-timing-function: ease;
 }
 
+.slider-container:hover .slider-btn {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.slider-btn:hover {
+  background-color: rgba(20, 20, 20, 0.95);
+}
+
 .sl-img {
   width: 280.75px;
   height: 158.07px;
