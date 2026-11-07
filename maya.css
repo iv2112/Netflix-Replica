@@ -101,6 +101,7 @@ body {
   height: 26px;
   display: block;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .icon path {
