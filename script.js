@@ -23,4 +23,9 @@ document.querySelectorAll('.slider-container').forEach(wrapper => {
       slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 1
     );
   }
+
+  slider.addEventListener('scroll', updateArrows);
+  window.addEventListener('resize', updateArrows);
+  updateArrows();
+
 });
