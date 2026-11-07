@@ -18,5 +18,9 @@ document.querySelectorAll('.slider-container').forEach(wrapper => {
 
   function updateArrows() {
     prev.classList.toggle('hidden', slider.scrollLeft <= 0);
+    next.classList.toggle(
+      'hidden',
+      slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 1
+    );
   }
 });
