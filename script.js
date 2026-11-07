@@ -7,4 +7,8 @@ document.querySelectorAll('.slider-container').forEach(wrapper => {
   const imgWidth = 280.75;
   const gap = 8;
   const step = (imgWidth + gap) * 5;
+
+  next.addEventListener('click', () => {
+    slider.scrollBy({ left: step, behavior: 'smooth' });
+  });
 });
