@@ -287,11 +287,7 @@ body {
   margin-bottom: 37px;
 }
 
-.slider-a,
-.slider-b,
-.slider-c,
-.slider-d,
-.slider-e {
+.slider {
   margin-bottom: 0px;
   display: flex;
   flex-direction: row;
