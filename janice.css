@@ -401,6 +401,7 @@ body {
   height: 158.07px;
   border-radius: 8px;
   cursor: pointer;
+  scroll-snap-align: start;
 }
 
 .sl-img.first {
