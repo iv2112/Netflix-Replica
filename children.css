@@ -292,6 +292,11 @@ body {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  overflow-x: auto;
+  scroll-padding-left: 48px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
 }
 
 .slider-btn {
