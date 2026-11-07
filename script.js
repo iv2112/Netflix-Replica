@@ -15,4 +15,8 @@ document.querySelectorAll('.slider-container').forEach(wrapper => {
   prev.addEventListener('click', () => {
     slider.scrollBy({ left: -step, behavior: 'smooth' });
   });
+
+  function updateArrows() {
+    prev.classList.toggle('hidden', slider.scrollLeft <= 0);
+  }
 });
