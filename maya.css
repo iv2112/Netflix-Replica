@@ -396,14 +396,20 @@ body {
 }
 
 .sl-img {
+  flex: 0 0 280.75px;
   width: 280.75px;
   height: 158.07px;
   border-radius: 8px;
   cursor: pointer;
+  scroll-snap-align: start;
 }
 
 .sl-img.first {
   margin-left: 48px;
+}
+
+.sl-img.end {
+  margin-right: 48px;
 }
 
 .sl-img.last {
