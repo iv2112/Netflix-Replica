@@ -11,4 +11,8 @@ document.querySelectorAll('.slider-container').forEach(wrapper => {
   next.addEventListener('click', () => {
     slider.scrollBy({ left: step, behavior: 'smooth' });
   });
+
+  prev.addEventListener('click', () => {
+    slider.scrollBy({ left: -step, behavior: 'smooth' });
+  });
 });
