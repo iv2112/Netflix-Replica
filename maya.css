@@ -317,15 +317,20 @@ body {
   margin-bottom: 37px;
 }
 
-.slider-a,
-.slider-b,
-.slider-c,
-.slider-d,
-.slider-e {
+.slider {
   margin-bottom: 0px;
   display: flex;
   flex-direction: row;
   gap: 8px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-padding-left: 48px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
 }
 
 .slider-btn {
